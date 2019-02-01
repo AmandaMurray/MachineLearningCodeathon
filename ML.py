@@ -7,3 +7,6 @@ def load_happy_data():
 def main():
     happy = load_happy_data()
     happy.head()
+    happy.info()
+
+main()
