@@ -1,0 +1,94 @@
+info
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1338 entries, 0 to 1337
+Data columns (total 7 columns):
+age         1338 non-null int64
+sex         1338 non-null object
+bmi         1338 non-null float64
+children    1338 non-null int64
+smoker      1338 non-null object
+region      1338 non-null object
+charges     1338 non-null float64
+dtypes: float64(2), int64(2), object(3)
+memory usage: 57.5+ KB
+describe
+               age          bmi     children       charges
+count  1338.000000  1338.000000  1338.000000   1338.000000
+mean     39.207025    30.663397     1.094918  13270.422265
+std      14.049960     6.098187     1.205493  12110.011237
+min      18.000000    15.960000     0.000000   1121.873900
+25%      27.000000    26.296250     0.000000   4740.287150
+50%      39.000000    30.400000     1.000000   9382.033000
+75%      51.000000    34.693750     2.000000  16639.912515
+max      64.000000    53.130000     5.000000  63770.428010
+charges     1.000000
+age         0.299008
+bmi         0.198341
+children    0.067998
+Name: charges, dtype: float64
+Empty DataFrame
+Columns: [age, sex, bmi, children, smoker, region, charges]
+Index: []
+Predictions: [8000. 7840. 7984. 7984. 8000.]
+Labels:  [9193.8385, 8534.6718, 27117.99378, 8596.8278, 12475.3513]
+7541.371863406381
+Scores: [7305.38784731 7495.19757037 7338.0856503  7854.23057748 7343.66244294
+ 7334.60054265 8761.60390823 7425.86840295 7457.43987998 7339.52406819]
+Mean: 7565.560089041108
+Standard deviation: 426.9793291133396
+Scores: [7118.65353622 7466.77460781 7214.63027476 7989.68995921 7507.06261772
+ 7224.58485979 8685.05003782 7058.39910094 7667.49662576 7564.71499432]
+Mean: 7549.705661436344
+Standard deviation: 463.74089068375145
+7639.854130040125 {'max_features': 2, 'n_estimators': 1}
+7634.973043001149 {'max_features': 2, 'n_estimators': 3}
+7594.815354271656 {'max_features': 2, 'n_estimators': 10}
+7612.637329955231 {'max_features': 2, 'n_estimators': 30}
+7639.854130040124 {'max_features': 3, 'n_estimators': 1}
+7634.973043001149 {'max_features': 3, 'n_estimators': 3}
+7594.815354271656 {'max_features': 3, 'n_estimators': 10}
+7612.637329955231 {'max_features': 3, 'n_estimators': 30}
+7639.854130040124 {'max_features': 4, 'n_estimators': 1}
+7634.97304300115 {'max_features': 4, 'n_estimators': 3}
+7594.815354271655 {'max_features': 4, 'n_estimators': 10}
+7612.637329955231 {'max_features': 4, 'n_estimators': 30}
+7639.854130040124 {'max_features': 5, 'n_estimators': 1}
+7634.973043001149 {'max_features': 5, 'n_estimators': 3}
+7594.815354271656 {'max_features': 5, 'n_estimators': 10}
+7612.637329955231 {'max_features': 5, 'n_estimators': 30}
+7639.854130040124 {'max_features': 6, 'n_estimators': 1}
+7634.973043001149 {'max_features': 6, 'n_estimators': 3}
+7594.815354271656 {'max_features': 6, 'n_estimators': 10}
+7612.637329955231 {'max_features': 6, 'n_estimators': 30}
+7639.854130040124 {'max_features': 8, 'n_estimators': 1}
+7634.973043001149 {'max_features': 8, 'n_estimators': 3}
+7594.815354271656 {'max_features': 8, 'n_estimators': 10}
+7612.637329955231 {'max_features': 8, 'n_estimators': 30}
+7595.127880575832 {'bootstrap': False, 'max_features': 2, 'n_estimators': 1}
+7595.127880575831 {'bootstrap': False, 'max_features': 2, 'n_estimators': 3}
+7595.127880575831 {'bootstrap': False, 'max_features': 2, 'n_estimators': 10}
+7595.127880575833 {'bootstrap': False, 'max_features': 2, 'n_estimators': 30}
+7595.127880575832 {'bootstrap': False, 'max_features': 3, 'n_estimators': 1}
+7595.127880575832 {'bootstrap': False, 'max_features': 3, 'n_estimators': 3}
+7595.127880575832 {'bootstrap': False, 'max_features': 3, 'n_estimators': 10}
+7595.127880575832 {'bootstrap': False, 'max_features': 3, 'n_estimators': 30}
+7595.127880575832 {'bootstrap': False, 'max_features': 4, 'n_estimators': 1}
+7595.127880575832 {'bootstrap': False, 'max_features': 4, 'n_estimators': 3}
+7595.127880575832 {'bootstrap': False, 'max_features': 4, 'n_estimators': 10}
+7595.127880575832 {'bootstrap': False, 'max_features': 4, 'n_estimators': 30}
+7595.127880575831 {'bootstrap': False, 'max_features': 5, 'n_estimators': 1}
+7595.127880575832 {'bootstrap': False, 'max_features': 5, 'n_estimators': 3}
+7595.127880575832 {'bootstrap': False, 'max_features': 5, 'n_estimators': 10}
+7595.127880575833 {'bootstrap': False, 'max_features': 5, 'n_estimators': 30}
+7595.127880575832 {'bootstrap': False, 'max_features': 6, 'n_estimators': 1}
+7595.127880575831 {'bootstrap': False, 'max_features': 6, 'n_estimators': 3}
+7595.127880575832 {'bootstrap': False, 'max_features': 6, 'n_estimators': 10}
+7595.127880575833 {'bootstrap': False, 'max_features': 6, 'n_estimators': 30}
+{'max_features': 4, 'n_estimators': 10}
+RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features=4, max_leaf_nodes=None, min_impurity_decrease=0.0,
+           min_impurity_split=None, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=None, oob_score=False, random_state=42,
+           verbose=0, warm_start=False)
+7372.345674764752
